@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1><b>Verificador de Idade</b></h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0" max="130">               
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+           Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <P id="p1">
+            <a href="https://www.instagram.com/_dev.cris_?igsh=MTBzanEyczIzZnV3YQ%3D%3D" ><b>@_Dev.Cris_</b></a>
+        </P>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
